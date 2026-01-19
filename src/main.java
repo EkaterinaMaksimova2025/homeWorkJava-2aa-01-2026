@@ -1,14 +1,13 @@
-public class main {
+public class Main {
     public static void main(String[] args) {
         int adding = 1100; // сумма попаолнения
         int current = 100; // текущий баланс
         int bonus; // начисленные бонусы
         int summary; // итоговая сумма
 
-        if (adding > 1000){
-            bonus = adding/100;
-        }
-        else {
+        if (adding > 1000) {
+            bonus = adding / 100;
+        } else {
             bonus = 0;
         }
 
